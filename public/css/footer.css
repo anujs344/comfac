@@ -1,0 +1,18 @@
+.footer-div{
+    background-color: bisque;
+    text-align: center;
+    padding:10px 0px;
+}
+.footer-links{
+    display: inline-block;
+    margin:0px 10px;
+    font-size: 20px;
+    font-weight:bolder;
+}
+.footer-intro{
+    margin-top:10px;
+}
+.footer-intro p{
+    margin-top:5px;
+    font-size: 20px;
+}

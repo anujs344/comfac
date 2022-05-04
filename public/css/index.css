@@ -1,0 +1,106 @@
+
+*{
+    margin:0px;
+    padding:0;
+
+}
+.navbar{
+    height:60px;
+    padding:0px 20px;
+    background-color: rgb(145, 9, 9);
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbox{
+    display: flex;
+    justify-content: end;
+}
+.navbox button{
+    padding:10px;
+    font-size:18px;
+    margin:0px 10px;
+    border:none;
+    border-radius: 50px;
+    transition:1s;
+    cursor: pointer;
+}
+.navbox button:hover{
+    background-color:#000000;
+    color:white;
+}
+.navbox button:hover a{
+    color:white;
+}
+.navbar a {
+    text-decoration: none;
+    color:black;
+}
+.main{
+    width:80%;
+    min-height:400px;
+    background-color: rgb(206, 211, 211);
+    margin:50px auto;
+    padding: 20px;
+}
+.main-head p{
+    font-size: 30px;
+    margin:20px 0px;
+    text-align: center;
+}
+.main-head h2{
+    text-align: center;
+}
+.photo-body{
+    display: flex;
+    margin-top:30px;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+}
+
+.photo-body h1{
+    margin: 70px 30px;
+}
+
+.photo-body p{
+    margin: 10px;
+}
+
+#choose{
+    text-align: center;
+    margin-top: 30px;
+}
+/* responsive css    */
+
+@media only screen and (max-width:568px){
+    .navbox button{
+        padding:10px;
+        font-size:14px;
+        margin:0px 5px;
+    }
+    .navbar h1{
+        font-size: 1.6rem;
+    }
+    .navbox h1{
+        font-size:1rem;
+    } 
+    .navbar{
+        padding-left:10px;
+    }
+    .main{
+        min-height:500px;
+        margin:20px auto;
+        padding: 20px 10px;
+    }
+    .main-head p{
+        font-size: 20px;
+        line-height:35px;
+        margin:20px 0px;
+    }
+    .photo1 img{
+        height:30px;
+        width:30px;
+    }
+}
